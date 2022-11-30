@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/goodnight_image@2x.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>clock</title>
+  </head>
+
+  <body>
+    <nav id="nav-id">
+
+      <div id="nav-div-1">
+        <div><img src="./images/clock_logo.png"></div>
+
+        <div id="input-div">
+          
+          <i class="fa-solid fa-sun-plant-wilt"></i>
+          <label>Set wake up time</label>
+          <select class="slect-common">
+            <option>8AM - 9AM</option>
+            <option>9AM - 10AM</option>
+            <option selected>10AM - 11AM</option>
+            <option>11AM - 12AM</option>
+          </select><br />
+
+          <i class="fa-solid fa-utensils"></i>
+          <label>Set lunch time</label>
+          <select class="slect-common">
+            <option>12PM - 1PM</option>
+          </select><br />
+
+          <i class="fa-brands fa-napster"></i>
+          <label>Set nap time</label>
+          <select class="slect-common">
+            <option>4PM - 5PM</option>
+          </select><br />
+
+          <i class="fa-solid fa-cloud-moon"></i>
+          <label>Set nigth time</label>
+          <select class="slect-common">
+            <option>8PM - 9AM</option>
+          </select>
+
+        </div>
+
+        <div class="msg">
+          <p class="message">GOOD MORNING!! WAKE UP!</p>
+        </div>
+
+        <div id="flex">
+          <div><button id="set-alarm">Set Alarm</button></div>
+        <div id="box">
+          <p class="box-para">Wake Up Time:10AM-11AM</p>
+          <p class="box-para">Lunch Time:12PM-1PM</p>
+          <p class="box-para">Nap Time:4PM-5PM</p>
+          <p class="box-para">Night Time:8PM-9PM</p>
+        </div>
+        </div>
+      </div>
+
+      <div id="nav-div-2">
+
+        <div id="time">
+          <div id="text">Time</div>
+          <div id="hour" class="time-div"></div>
+          <div id="minute" class="time-div"></div>
+          <div id="second" class="time-div"></div>
+          <div id="am-pm" class="time-div"></div>
+        </div>
+
+        <div id="message-right">
+          <p id="message-right-para">GRAB SOME HEALTHY BREAKFAST!!!</p>
+        </div>
+
+        <div id="image"></div>
+
+      </div>
+
+    </nav>
+
+
+
+    
+  </body>
+</html>
