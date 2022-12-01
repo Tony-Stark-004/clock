@@ -49,6 +49,7 @@ select{
  margin-bottom: 20px; 
  color: #3D087B;
  font-size: smaller;
+ border-radius: 3px;
  opacity: 0.6;
 }
 
@@ -70,7 +71,7 @@ label {
   align-items: center;
 }
 
-.message{
+#message{
   color: #8E53F0;
   font-weight: bold;
   font-size: large;
@@ -127,14 +128,20 @@ label {
   color: #3D087B
 }
 
-#am-pm{
-  background-image: linear-gradient(to bottom, #8E53F0,#F25CFE);
-}
-
 .time-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  font-weight: bold;
   width: 60px;
   height: 60px;
   background-color: #F6E2FF;
+}
+
+
+#am-pm{
+  background-image: linear-gradient(to bottom, #8E53F0,#F25CFE);
 }
 
 #message-right{
@@ -153,6 +160,7 @@ label {
  font-size: large;
  margin-left: auto;
  margin-right: auto;
+ padding-left: 15px;
  font-family: 'Fredoka One', cursive;
 }
 
@@ -189,6 +197,12 @@ label {
   color: #3D087B;
   position: absolute;
   font-size: 25px
+}
+
+.options{
+  color: grey;
+  font-size: x-small;
+  border-radius: 5px;
 }
 
 
