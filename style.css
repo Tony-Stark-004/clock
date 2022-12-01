@@ -31,7 +31,7 @@ body{
 
 #input-div{
   width: 450px;
-  height: 250px;
+  height: 300px;
   background-color: #FFFFFF;
   border-radius: 6px;
   position: relative;
@@ -95,6 +95,17 @@ label {
   border: 0px;
   border-radius: 4px;
   color: white;
+  transition: box-shadow 0.4s;
+  cursor: pointer;
+}
+
+#set-alarm:hover{
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.4)
+}
+
+#set-alarm:active{
+  background-image: linear-gradient(to right, black, white);
+  color: black;
 }
 
 #box{
@@ -203,6 +214,22 @@ label {
   color: grey;
   font-size: x-small;
   border-radius: 5px;
+}
+
+.line {
+  width: 1px;
+  height: 28px;
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 1px;
+  box-sizing: border-box;
+  /* position: absolute; */
+   margin: -18px 0px 6px 10px;
+   transition: border-color 0.5s;
+   cursor: pointer;
+}
+
+.line:hover{
+  border-color: #474747;
 }
 
 

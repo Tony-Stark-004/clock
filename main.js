@@ -55,6 +55,11 @@ document.querySelector('#set-alarm').addEventListener('click', () => {
         arr[1].textContent = 'Lunch Time: ' + document.getElementById('lunch').value
         arr[2].textContent = 'Nap Time: ' + document.getElementById('nap').value
         arr[3].textContent = 'Night Time: ' + document.getElementById('sleep').value
+        //  document.querySelector('#box').style.opacity = "0.8";
+        //   let para = document.querySelectorAll('.box-para');
+        //   for(let i = 0; i < para.length; i++) {
+        //     para[i].style.color = "grey";
+        //   }
 
 
         // For PM
