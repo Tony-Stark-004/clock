@@ -125,6 +125,7 @@ label {
 /* div-2 */
 
 
+
 #time{
   width: 450px;
   height: 100px;
@@ -133,7 +134,36 @@ label {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 3;
+   position: absolute; 
 }
+
+#empty-1{
+  width: 370px;
+  height: 70px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  top: 47px;
+}
+
+#empty-2{
+  width: 320px;
+  height: 65px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  opacity: 0.4;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  top: -4px;
+}
+
 
 #text{
   color: #3D087B
