@@ -9,11 +9,11 @@ setInterval(() => {
 }, 1000);
 
 var time = (new Date().getHours());
-if(time > 12) {
+if(time > 11) {
   var pm = document.getElementById('am-pm').textContent = 'PM';
 }
 
-else if(time <= 12) {
+else if(time <= 11 && time >=0) {
   var am = document.getElementById('am-pm').textContent = 'AM';
 }
 
@@ -64,7 +64,7 @@ document.querySelector('#set-alarm').addEventListener('click', () => {
 
         // For PM
 
-        if(time>12) {
+        if(time>11) {
       if(document.getElementById('wake-up').value === `${date.getHours()%12} PM - ${(date.getHours()%12) + 1} PM`) {
             document.getElementById('message').textContent = 'GOOD MORNING!! WAKE UP !!'
             document.getElementById('image').style.backgroundImage = "URL('./images/sun.png')";
@@ -89,7 +89,7 @@ document.querySelector('#set-alarm').addEventListener('click', () => {
 
     // For AM
 
-        if(time<12) {
+        if(time <= 11 && time >=0) {
           if(document.getElementById('wake-up').value === `${date.getHours()%12} AM - ${(date.getHours()%12) + 1} AM`) {
             document.getElementById('message').textContent = 'GOOD MORNING!! WAKE UP !!'
             document.getElementById('image').style.backgroundImage = "URL('./images/sun.png')";
